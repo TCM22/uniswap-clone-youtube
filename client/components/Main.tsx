@@ -31,7 +31,7 @@ const customStyles = {
     right: 'auto',
     bottom: 'auto',
     transform: 'translate(-50%, -50%)',
-    backgroundColor: '#0a0b0d',
+    backgroundColor: '#000000',
     padding: 0,
     border: 'none',
   },
@@ -58,7 +58,7 @@ const Main = () => {
     <div className={style.wrapper}>
       <div className={style.content}>
         <div className={style.formHeader}>
-          <div>Swap</div>
+          <div>STD Swap</div>
           <div>
             <RiSettings3Fill />
           </div>
